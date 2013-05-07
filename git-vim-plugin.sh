@@ -1,7 +1,7 @@
 #!/bin/sh
 
 GITHUB=$(echo $1 | sed 's/git:/https:/')
-MODULE=$(echo $GITHUB | sed 's/.*github.com\///;s/.git//')
+MODULE=$(echo $GITHUB | sed 's/.*github.com\///;s/\.git//')
 PLUGIN=$(echo $MODULE | sed 's/.*\/vim-//')
 
 cd ~/.vim
