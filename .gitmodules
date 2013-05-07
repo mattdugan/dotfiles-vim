@@ -28,3 +28,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/obsession"]
+	path = bundle/obsession
+	url = https://github.com/tpope/vim-obsession.git
