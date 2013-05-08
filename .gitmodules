@@ -43,3 +43,6 @@
 [submodule "bundle/mango"]
 	path = bundle/mango
 	url = https://github.com/goatslacker/mango.vim.git
+[submodule "bundle/detailed"]
+	path = bundle/detailed
+	url = https://github.com/rking/vim-detailed.git
