@@ -1,4 +1,4 @@
-dotfiles
-========
+dotfiles-vim
+============
 
-Configuration essentials
+VIM Configuration for ~/.vim
