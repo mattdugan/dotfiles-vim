@@ -30,7 +30,7 @@ execute pathogen#helptags()
 
 syntax on
 filetype plugin indent on
-colorscheme vividchalk
+colorscheme detailed
 
 " Powerline
 "let g:Powerline_symbols = 'fancy'

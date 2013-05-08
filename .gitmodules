@@ -46,3 +46,6 @@
 [submodule "bundle/detailed"]
 	path = bundle/detailed
 	url = https://github.com/rking/vim-detailed.git
+[submodule "bundle/jellybeans"]
+	path = bundle/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
