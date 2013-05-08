@@ -29,3 +29,12 @@ execute pathogen#helptags()
 
 syntax on
 filetype plugin indent on
+
+" Powerline
+"let g:Powerline_symbols = 'fancy'
+set guifont=Liberation\ Mono\ for\ Powerline\ 12
+
+" GVIM settings
+set guioptions=
+colorscheme vividchalk
+
