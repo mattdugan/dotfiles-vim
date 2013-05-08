@@ -40,3 +40,6 @@
 [submodule "bundle/Hemisu"]
 	path = bundle/Hemisu
 	url = https://github.com/noahfrederick/Hemisu.git
+[submodule "bundle/mango"]
+	path = bundle/mango
+	url = https://github.com/goatslacker/mango.vim.git
