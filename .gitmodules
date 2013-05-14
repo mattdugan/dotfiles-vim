@@ -58,3 +58,6 @@
 [submodule "bundle/Zenburn"]
 	path = bundle/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "bundle/textobj-word-column"]
+	path = bundle/textobj-word-column
+	url = https://github.com/coderifous/textobj-word-column.vim.git
