@@ -61,3 +61,6 @@
 [submodule "bundle/textobj-word-column"]
 	path = bundle/textobj-word-column
 	url = https://github.com/coderifous/textobj-word-column.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
