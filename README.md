@@ -8,8 +8,7 @@ commands, ensuring that each completes successfully:
 
     git clone https://github.com/mattdugan/dotfiles-vim.git ~/.vim
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git submodule update --init
     ln -sf ~/.vim/vimrc ~/.vimrc
 
 To add new plugins, a convenience script can be run, like so:
