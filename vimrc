@@ -47,7 +47,8 @@ endif
 let g:netrw_altv = 1 " vsplit open to the /right/
 let g:netrw_list_hide = ".svn,.git,.class,.pyc,.settings,.*\.swp"
 let g:netrw_keepdir = 0 " follow the browsing directory
-let g:netrw_browse_split = 2 " vsplit by default
+" Try to use split-open instead of file-drawer functionality
+" let g:netrw_browse_split = 2 " vsplit by default
 let g:netrw_liststyle = 3 " tree view by default
 let g:netrw_special_syntax = 1 " differentiate special file types
 let g:netrw_use_noswf = 1 " no swap files
