@@ -73,3 +73,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/mac-classic-theme"]
+	path = bundle/mac-classic-theme
+	url = https://github.com/nelstrom/vim-mac-classic-theme.git
