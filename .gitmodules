@@ -76,3 +76,6 @@
 [submodule "bundle/mac-classic-theme"]
 	path = bundle/mac-classic-theme
 	url = https://github.com/nelstrom/vim-mac-classic-theme.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
