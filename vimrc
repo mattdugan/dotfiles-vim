@@ -23,6 +23,7 @@ set sidescrolloff=15
 set sidescroll=1
 set ignorecase
 set smartcase
+set colorcolumn=80
 
 " Install Pathogen
 filetype off
@@ -40,7 +41,7 @@ colorscheme molokai
 " GVIM settings
 if has("gui_running")
   set guioptions=acei
-  set guifont=Liberation\ Mono\ for\ Powerline\ 12
+  set guifont=Liberation\ Mono\ 12
 endif
 
 " NetRW settings
