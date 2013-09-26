@@ -66,6 +66,11 @@ if &t_Co > 2 || has("gui_running")
   syntax on          " enable colors
   set hlsearch       " highlight search (very useful!)
   set incsearch      " search incremently (search while typing)
+  " Clean looking GVIM settings
+  set guioptions=acei
+  set guifont=Liberation\ Mono\ 12
+endif
+
 endif
 
 " paste mode toggle (needed when using autoindent/smartindent)
@@ -120,12 +125,6 @@ if has("autocmd")
   augroup END
 endif " has("autocmd")
 
-
-" Clean looking GVIM settings
-if has("gui_running")
-  set guioptions=acei
-  set guifont=Liberation\ Mono\ 12
-endif
 
 " NetRW settings
 let g:netrw_altv = 1 " vsplit open to the /right/
