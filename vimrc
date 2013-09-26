@@ -12,7 +12,7 @@ execute pathogen#helptags()
 " Use of the filetype plugins, auto completion and indentation support
 filetype plugin indent on
 
-# display settings
+" display settings
 set background=dark     " enable for dark terminals
 set nowrap              " dont wrap lines
 set number              " show line numbers
@@ -71,8 +71,6 @@ if &t_Co > 2 || has("gui_running")
   set guifont=Liberation\ Mono\ 12
 endif
 
-endif
-
 " paste mode toggle (needed when using autoindent/smartindent)
 map <F10> :set paste<CR>
 map <F11> :set nopaste<CR>
@@ -124,7 +122,6 @@ if has("autocmd")
     endif
   augroup END
 endif " has("autocmd")
-
 
 " NetRW settings
 let g:netrw_altv = 1 " vsplit open to the /right/
