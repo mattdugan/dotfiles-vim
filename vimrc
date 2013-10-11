@@ -138,3 +138,8 @@ let g:netrw_special_syntax = 1 " differentiate special file types
 let g:netrw_use_noswf = 1 " no swap files
 let g:netrw_menu = 0 " no menu
 let g:netrw_preview = 1 " vsplit for preview
+
+" Search bling settings
+let g:bling_time = 100
+let g:bling_count = 2
+let g:bling_color = 'red'
