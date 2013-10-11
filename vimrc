@@ -33,7 +33,7 @@ set matchpairs+=<:>     " specially for html
 set foldmethod=indent   " Fold based on indentation level rather than block delimiter
 set foldnestmax=3       " Don't nest more than 3 folds together
 set foldminlines=2      " Don't fold just one line
-set foldenable          " Turn on folding by default
+set nofoldenable        " Turn off folding by default
 set cursorline          " Highlight the line containing the current cursor position
 set colorcolumn=80      " Show a line at the 80 character mark, use as a margin hint
 colorscheme molokai     " Colorschemes make things beautiful
@@ -70,7 +70,8 @@ if &t_Co > 2 || has("gui_running")
   set incsearch      " search incremently (search while typing)
   " Clean looking GVIM settings
   set guioptions=acei " No scrollbars, menu bar or toolbars.
-  set guifont=Liberation\ Mono\ 12
+  " set guifont=Liberation\ Mono\ 12
+  set guifont=Monaco:h13
   set linespace=1    " Add a little padding between lines for comfort
 endif
 
