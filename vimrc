@@ -71,7 +71,7 @@ if &t_Co > 2 || has("gui_running")
   " Clean looking GVIM settings
   set guioptions=acei " No scrollbars, menu bar or toolbars.
   " set guifont=Liberation\ Mono\ 12
-  set guifont=Monaco:h13
+  set guifont=Monospace\ 15
   set linespace=1    " Add a little padding between lines for comfort
 endif
 
